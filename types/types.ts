@@ -51,6 +51,13 @@ cart = {
     key: "foo"
 };
 
+// type inference
+let message2 = "hello there"
+message2 = "new message!"
+
+window.addEventListener("click", (e) => {
+    console.log(e.target); // it already knows that is a mouse event
+});
 
 
 
