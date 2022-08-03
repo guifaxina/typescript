@@ -33,3 +33,5 @@ const guilherme = new CharAccount("Guilherme", 21, "GuiSlayer", 311)
 
 faxina.logDetails()
 guilherme.logDetails()
+console.log(guilherme.getLevel);
+ 
